@@ -1,5 +1,5 @@
 <?php
-    class Calculation{//Parent/Base class
+    class Calculation{//Parent/Base/Super class
 
         public function __construct(
             public $a = 0,
@@ -12,7 +12,7 @@
         }
     }
 
-    class Formula extends Calculation{ //Chils/Derived class
+    class Formula extends Calculation{ //Chils/Derived/Sub class
         public function subs(){
             return "Class Formula";
         }
