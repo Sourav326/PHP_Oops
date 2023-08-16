@@ -2,6 +2,7 @@
     //It solves the multiple inheritance problem.
     //It contains only abstract methods
     //It con't contain any property/variable
+    //You can't create object/instancw of Interface
 
     interface A{
         const TEST_VARIABLE = "Test";
